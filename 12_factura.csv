@@ -1,0 +1,8 @@
+﻿id_factura,fecha,forma_pago,id_reserva
+1,2026-09-08,efectivo,1
+2,2026-09-12,tarjeta,2
+3,2026-09-25,tarjeta,3
+4,2026-10-05,transferencia,4
+5,2026-10-10,efectivo,5
+6,2026-10-18,tarjeta,6
+7,2026-10-27,transferencia,7

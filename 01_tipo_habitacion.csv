@@ -1,0 +1,5 @@
+﻿id_tipo,nombre,descripcion,capacidad,tarifa_noche
+1,Simple,"Habitación con una cama de plaza y media, baño privado y TV",1,35.00
+2,Doble,"Habitación con cama matrimonial o dos camas, baño privado y escritorio",2,55.00
+3,Suite,"Suite con sala, cama king, jacuzzi y vista a la ciudad",2,110.00
+4,Familiar,Habitación amplia con una cama matrimonial y dos camas individuales,4,80.00

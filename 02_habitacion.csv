@@ -1,0 +1,11 @@
+﻿numero,piso,estado,id_tipo
+101,1,disponible,1
+102,1,disponible,1
+103,1,disponible,2
+201,2,ocupada,2
+202,2,mantenimiento,2
+203,2,disponible,4
+204,2,disponible,4
+205,2,disponible,1
+301,3,ocupada,3
+302,3,disponible,3
