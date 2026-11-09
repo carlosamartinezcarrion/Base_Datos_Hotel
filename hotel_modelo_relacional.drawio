@@ -1,0 +1,197 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Hotel relacional" id="hotel-rel">
+    <mxGraphModel dx="1487" dy="1383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1950" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tipo" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=16;strokeColor=none;fillColor=none;" value="Tipo_Habitacion (id_tipo, nombre, descripcion, capacidad, tarifa_noche)" vertex="1">
+          <mxGeometry height="30" width="654" x="300" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="fl1" edge="1" parent="1" source="hab" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=2;endFill=1;exitX=0.681;exitY=0.156;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="130" />
+            </Array>
+            <mxPoint x="465" y="139" as="sourcePoint" />
+            <mxPoint x="450" y="75.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hab" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=16;strokeColor=none;fillColor=none;" value="Habitacion (numero, piso, estado, tipo)" vertex="1">
+          <mxGeometry height="30" width="373" x="300" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="fl2" edge="1" parent="1" source="con" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=2;endFill=1;exitX=0.184;exitY=0.966;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.108;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" target="res">
+          <mxGeometry relative="1" x="-0.2467" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="1396.77" />
+              <mxPoint x="870" y="1396.77" />
+              <mxPoint x="870" y="1080" />
+              <mxPoint x="260" y="1080" />
+              <mxPoint x="260" y="930" />
+              <mxPoint x="350" y="930" />
+            </Array>
+            <mxPoint x="685" y="1195" as="sourcePoint" />
+            <mxPoint x="410" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fl3" edge="1" parent="1" source="fac" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=2;endFill=1;exitX=0.705;exitY=0.012;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" x="-0.0677" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="1454.02" />
+              <mxPoint x="900" y="1454.02" />
+              <mxPoint x="900" y="1050" />
+              <mxPoint x="410" y="1050" />
+            </Array>
+            <mxPoint x="623.5" y="1485" as="sourcePoint" />
+            <mxPoint x="410" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emp" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=16;strokeColor=none;fillColor=none;" value="Empleado (codigo, cedula, nombre, sueldo)" vertex="1">
+          <mxGeometry height="30" width="390" x="300" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="fl4" edge="1" parent="1" source="pl" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=2;endFill=1;exitX=0.441;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="380" as="sourcePoint" />
+            <mxPoint x="420" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fl5" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=2;endFill=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="emp">
+          <mxGeometry relative="1" x="-0.2138" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="520" />
+              <mxPoint x="290" y="520" />
+              <mxPoint x="290" y="362.5" />
+              <mxPoint x="370" y="362.5" />
+            </Array>
+            <mxPoint x="420" y="560" as="sourcePoint" />
+            <mxPoint x="420" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pl" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=16;strokeColor=none;fillColor=none;" value="Personal_Limpieza (codigo, piso_asignado)" vertex="1">
+          <mxGeometry height="30" width="390" x="300" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="fl6" edge="1" parent="1" source="abo" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=2;endFill=1;exitX=0.701;exitY=0.009;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" x="-0.0158" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="1576.74" />
+              <mxPoint x="950" y="1576.74" />
+              <mxPoint x="950" y="1020" />
+              <mxPoint x="460" y="1020" />
+            </Array>
+            <mxPoint x="575" y="1605" as="sourcePoint" />
+            <mxPoint x="430" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rec" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=16;strokeColor=none;fillColor=none;" value="Recepcionista (codigo, turno)" vertex="1">
+          <mxGeometry height="30" width="285" x="300" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="fl7" edge="1" parent="1" source="res" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=2;endFill=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="rec">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="955.5" y="642.5" />
+              <mxPoint x="490" y="642.5" />
+            </Array>
+            <mxPoint x="950" y="920" as="sourcePoint" />
+            <mxPoint x="420" y="604" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hue" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=16;strokeColor=none;fillColor=none;" value="Huesped (cedula_pasaporte, nombres, apellidos, nacionalidad, correo)" vertex="1">
+          <mxGeometry height="30" width="628" x="300" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="fl8" edge="1" parent="1" source="tel" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=2;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.221;entryY=0.884;entryDx=0;entryDy=0;entryPerimeter=0;" target="hue">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="789" as="sourcePoint" />
+            <mxPoint x="420" y="734" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fl9" edge="1" parent="1" source="con" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=2;endFill=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.338;entryY=1.094;entryDx=0;entryDy=0;entryPerimeter=0;" target="ser">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1235" y="789" as="sourcePoint" />
+            <mxPoint x="1190" y="734" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tel" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=16;strokeColor=none;fillColor=none;" value="Telefono_Huesped (huesped, telefono)" vertex="1">
+          <mxGeometry height="30" width="346" x="300" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="res" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=16;strokeColor=none;fillColor=none;" value="Reserva (&lt;u&gt;id_reserva&lt;/u&gt;, fecha_reserva, fecha_entrada, fecha_salida, estado, huesped, recepcionista)" vertex="1">
+          <mxGeometry height="30" width="874" x="300" y="955" as="geometry" />
+        </mxCell>
+        <mxCell id="fl10" edge="1" parent="1" source="rh" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=2;endFill=1;exitX=0.363;exitY=0.951;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.144;entryY=-0.054;entryDx=0;entryDy=0;entryPerimeter=0;" target="res">
+          <mxGeometry relative="1" x="-0.357" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="1140" />
+              <mxPoint x="240" y="1140" />
+              <mxPoint x="240" y="900" />
+              <mxPoint x="380" y="900" />
+            </Array>
+            <mxPoint x="465" y="1049" as="sourcePoint" />
+            <mxPoint x="394.39" y="990.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fl11" edge="1" parent="1" source="rh" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=2;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" x="0.0374" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="1170" />
+              <mxPoint x="220" y="1170" />
+              <mxPoint x="210" y="260" />
+              <mxPoint x="390" y="260" />
+            </Array>
+            <mxPoint x="535" y="1049" as="sourcePoint" />
+            <mxPoint x="410" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fl12" edge="1" parent="1" source="res" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=2;endFill=1;exitX=0.638;exitY=0.054;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="hue">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="857.61" y="770" />
+              <mxPoint x="510" y="770" />
+            </Array>
+            <mxPoint x="605" y="1049" as="sourcePoint" />
+            <mxPoint x="560" y="994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fl13" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=2;endFill=1;entryX=0.468;entryY=1.125;entryDx=0;entryDy=0;entryPerimeter=0;" target="pl">
+          <mxGeometry relative="1" x="-0.0692" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="1700" />
+              <mxPoint x="1080" y="1700" />
+              <mxPoint x="1080" y="510" />
+              <mxPoint x="570" y="510" />
+            </Array>
+            <mxPoint x="560" y="1730" as="sourcePoint" />
+            <mxPoint x="630" y="994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rh" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=16;strokeColor=none;fillColor=none;" value="Reserva_Habitacion (reserva, habitacion, tarifa_noche)" vertex="1">
+          <mxGeometry height="30" width="505" x="300" y="1085" as="geometry" />
+        </mxCell>
+        <mxCell id="ser" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=16;strokeColor=none;fillColor=none;" value="Servicio (id_servicio, nombre, precio)" vertex="1">
+          <mxGeometry height="30" width="364" x="300" y="1215" as="geometry" />
+        </mxCell>
+        <mxCell id="fl14" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=2;endFill=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="hab">
+          <mxGeometry relative="1" x="0.0134" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="1670" />
+              <mxPoint x="170" y="1670" />
+              <mxPoint x="170" y="240" />
+              <mxPoint x="350" y="240" />
+            </Array>
+            <mxPoint x="455" y="1735" as="sourcePoint" />
+            <mxPoint x="430" y="204.44444444444446" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="con" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=16;strokeColor=none;fillColor=none;" value="Consumo (reserva, servicio, fecha_consumo, cantidad, precio_unitario)" vertex="1">
+          <mxGeometry height="30" width="637" x="300" y="1345" as="geometry" />
+        </mxCell>
+        <mxCell id="fac" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=16;strokeColor=none;fillColor=none;" value="Factura (id_factura, fecha, forma_pago, reserva)" vertex="1">
+          <mxGeometry height="30" width="452" x="300" y="1475" as="geometry" />
+        </mxCell>
+        <mxCell id="abo" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=16;strokeColor=none;fillColor=none;" value="Abono (id_abono, fecha, monto, reserva)" vertex="1">
+          <mxGeometry height="30" width="373" x="300" y="1605" as="geometry" />
+        </mxCell>
+        <mxCell id="mant" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=16;strokeColor=none;fillColor=none;" value="Mantenimiento (habitacion, personal_limpieza, fecha, observacion)" vertex="1">
+          <mxGeometry height="30" width="602" x="300" y="1735" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
